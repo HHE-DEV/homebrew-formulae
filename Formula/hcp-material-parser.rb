@@ -1,7 +1,7 @@
 class HcpMaterialParser < Formula
   desc "A command line utility to parse & update material pricing"
   homepage "https://github.com/HHE-DEV/hcp-material-parser"
-  url "https://github.com/HHE-DEV/hcp-material-parser.git", tag: "0.1.0", revision: "b91166064b0b6db931ac04c882604531be51e9bd"
+  url "https://github.com/HHE-DEV/hcp-material-parser.git", tag: "0.1.1", revision: "09c3081d373daa385d28922efe651ddc5ebf6588"
   head "https://github.com/HHE-DEV/hcp-material-parser.git"
   license "MIT"
 
