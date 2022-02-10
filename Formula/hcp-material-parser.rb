@@ -6,8 +6,9 @@ class HcpMaterialParser < Formula
   license "MIT"
 
   bottle do
-    rebuild 1
+    rebuild 2
     sha256 cellar: :any_skip_relocation, big_sur: "a32f5e07731166662cfc14cab312b9650234d9bc9431913e0d7dd382a400dacd"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "b21d7d6895c47f26b1ba65897631772873ae6b64d8876555c6531d5708ce735b"
   end
 
   depends_on xcode: ["10.15", :build]
