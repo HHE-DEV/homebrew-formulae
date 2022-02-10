@@ -5,6 +5,11 @@ class HcpMaterialParser < Formula
   head "https://github.com/HHE-DEV/hcp-material-parser.git"
   license "MIT"
 
+  bottle do
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, big_sur: "a32f5e07731166662cfc14cab312b9650234d9bc9431913e0d7dd382a400dacd"
+  end
+
   depends_on xcode: ["10.15", :build]
 
   def install
